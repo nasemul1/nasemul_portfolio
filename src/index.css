@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #212529;
+    color: #FFFFFF;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+/* navbar - start */
+.nav-bar{
+    margin: 0 auto;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .links{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+    /* logo */
+.logo{
+    width: 46px;
+    height: 46px;
+    background-color: #8CC152;
+    border-radius: 6px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #212529;
+    border: 3px solid #8CC152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.box:hover{
+    transition-duration: 250ms;
+    transform: translate(-4px, -4px);
+}
+
+.box a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #8CC152;
+    font-size: 22px;
+}
+
+    /* links */
+.links{
+    color: #EDEDED;
+}
+.links .nav-links{
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.links .nav-links:hover{
+    color: #8CC152;
+}
+
+.links a span{
+    color: #8CC152;
+}
+
+    /* resume link */
+.resume .r-box .r-link{
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+.resume{
+    margin: 10px 0 10px 40px;
+    background-color: #8CC152;
+    border-radius: 6px;
+}
+
+.resume .r-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    border: 2px solid #8CC152;
+    border-radius: 6px;
+}
+
+.resume .r-box:hover{
+    transition-duration: 250ms;
+    transform: translate(-4px, -4px);
+}
+
+/* navbar - end */
