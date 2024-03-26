@@ -62,6 +62,7 @@ section{
 .box:hover{
     transition-duration: 250ms;
     transform: translate(-4px, -4px);
+    rotate: -10deg;
 }
 
 .box a{
