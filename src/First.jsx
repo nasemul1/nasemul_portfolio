@@ -20,11 +20,17 @@ const First = () => {
             </div>
             <div className="main-area">
                 <div className="main-text">
-                    <p>Hi, I am</p>
+                    <p className="hi-text">Hi, I am</p>
                     <h1 id="name">Md Nasemul Islam</h1>
                     <h2>I am a <span>{ text }</span>
                         <Cursor cursorColor='#8CC152' />
                     </h2>
+                    <p className="bio">Highly motivated aspiring front-end developer with a strong grasp of HTML, CSS, and JavaScript seeks an entry-level position to leverage skills and contribute to a dynamic team.</p>
+                    <div className="hireMe-div">
+                        <div className="hireMe-box">
+                            <a href="">Hire Me</a>
+                        </div>
+                    </div>
                 </div>
                 <div className="main-image"></div>
             </div>

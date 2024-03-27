@@ -23,7 +23,7 @@ section{
 /* navbar - start */
 .nav-bar{
     margin: 0 auto;
-    padding: 25px 40px 0 40px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
 }
@@ -202,5 +202,30 @@ section{
     /* right-bar - end */
     /* main-area - start */
 .main-area{
-    padding: 0 80px;
+    padding: 0 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    height: 80vh;
+    align-items: center;
 }
+
+.main-area .main-text{
+    grid-column: 1/ span 2;
+}
+
+.main-text .hi-text{
+    padding-bottom: 15px;
+}
+
+.main-text h1{
+    font-size: 36px;
+}
+
+.main-area .main-image{
+    grid-column: 3/ span 2;
+}
+
+
+
