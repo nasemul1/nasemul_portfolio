@@ -1,11 +1,13 @@
+import First from "./First"
 import Navbar from "./Navbar"
 
 function App() {
 
   return (
     <>
-      <section>
+      <section id="main">
         <Navbar />
+        <First />
       </section>
       <section id="about">01.About</section>
       <section id="works">02.Works</section>
