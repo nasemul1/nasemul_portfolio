@@ -12,13 +12,17 @@
 
 .grid-container{
     padding: 0 100px;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-logo{
     grid-column: 1 / span 1;
+    justify-self: center;
     display: grid;
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 50px 50px 50px;
@@ -34,4 +38,13 @@
 
 .skill-text{
     grid-column: 2 / span 2;
+}
+
+.skill-text h3{
+    color: #8CC152;
+}
+
+.skill-text h4{
+    margin-top: 10px;
+    color: #8CC152;
 }

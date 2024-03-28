@@ -24,10 +24,14 @@ const Skills = () => {
                     <img src={cpp} alt="cpp logo" id="cpp" />
                 </div>
                 <div className="skill-text">
+                    <h3>Skills:</h3>
+                    <p>I bring websites to life as a Front-End Developer, wielding HTML, CSS, JavaScript, React, and Bootstrap.  I translate designer dreams into user-friendly interfaces, ensuring responsive experiences across all devices.  My expertise fosters engaging interactions and pixel-perfect execution.</p>
                     <h4>Languages:</h4>
                     <p>html, css, javascript, c, c++</p>
                     <h4>Frameworks:</h4>
                     <p>Bootstrap, react js</p>
+                    <h4>Softwares:</h4>
+                    <p>Figma, photoshop, illustrator, vs code</p>
                 </div>
             </div>
         </div>
