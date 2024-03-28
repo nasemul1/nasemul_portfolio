@@ -1,4 +1,5 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import image from './assets/profile-pic(2).png'
 
 const First = () => {
     const [text] = useTypewriter({
@@ -21,10 +22,10 @@ const First = () => {
             <div className="main-area">
                 <div className="main-text">
                     <p className="hi-text">Hi, I am</p>
-                    <h1 id="name">Md Nasemul Islam</h1>
-                    <h2>I am a <span>{ text }</span>
+                    <h2 id="name">Md Nasemul Islam</h2>
+                    <h3>I am a <span>{ text }</span>
                         <Cursor cursorColor='#8CC152' />
-                    </h2>
+                    </h3>
                     <p className="bio">Highly motivated aspiring front-end developer with a strong grasp of HTML, CSS, and JavaScript seeks an entry-level position to leverage skills and contribute to a dynamic team.</p>
                     <div className="hireMe-div">
                         <div className="hireMe-box">
@@ -32,7 +33,12 @@ const First = () => {
                         </div>
                     </div>
                 </div>
-                <div className="main-image"></div>
+                <div className="main-image">
+                    <div className="img-box">
+                        <img src={ image } alt="my image" />
+                    </div>
+                    <div className="img-back-box"></div>
+                </div>
             </div>
         </div>
     );
