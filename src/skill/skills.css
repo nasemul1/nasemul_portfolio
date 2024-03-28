@@ -3,16 +3,35 @@
     height: 100vh;
 }
 
-.skills #page-head{
+.skills .skills-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skills-top #skills-head{
     padding: 20px 100px;
     color: #5F6164;
     text-align: right;
     font-size: 14px;
+    display: inline-block;
+}
+
+.skills .skills-top a{
+    text-decoration: none;
+    color: #5F6164;
+    font-size: 14px;
+    padding: 20px 100px;
+}
+
+.skills .skills-top a:hover{
+    color: #8CC152;
+    transition-duration: 250ms;
+    transform: translateY(-4px);
 }
 
 .grid-container{
     padding: 0 100px;
-    height: 80vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
@@ -36,6 +55,11 @@
     align-self: center;
 }
 
+#c:hover, #cpp:hover, #html:hover, #css:hover, #js:hover, #bootstrap:hover, #react:hover, #figma:hover{
+    transition-duration: 250ms;
+    transform: rotate(-45deg);
+}
+
 .skill-text{
     grid-column: 2 / span 2;
 }
@@ -47,4 +71,36 @@
 .skill-text h4{
     margin-top: 10px;
     color: #8CC152;
+}
+
+@media only screen and (max-width: 1000px){
+    .skill-logo{
+        grid-column: span 3;
+    }
+
+    .skill-text{
+        grid-column: span 3;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .grid-container{
+        padding: 0 40px;
+        font-size: 15px;
+    }
+
+    .skills #page-head{
+        padding: 20px 40px;
+    }
+
+    #c, #cpp, #html, #css, #js, #bootstrap, #react, #figma{
+        width: 35px;
+    }
+
+    .skill-logo{
+        grid-template-columns: 40px 40px 40px;
+        grid-template-rows: 40px 40px 40px;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
 }

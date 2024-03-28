@@ -343,6 +343,18 @@ section{
     .main-image .img-back-box{
         width: 180px;
         height: 180px;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-height: 760px) and (max-width: 600px){
+    .main-image .img-box img{
+        width: 140px;
+    }
+
+    .main-image .img-back-box{
+        width: 140px;
+        height: 140px;
     }
 }
 /* main-section - end */

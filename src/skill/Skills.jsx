@@ -11,7 +11,10 @@ import figma from '.././assets/Figma.png'
 const Skills = () => {
     return (
         <div className="skills">
-            <p id='page-head'>01. Skills</p>
+            <div className="skills-top">
+                <p id='skills-head'>01. Skills</p>
+                <a href="#main">Go to top</a>
+            </div>
             <div className="grid-container">
                 <div className="skill-logo">
                     <img src={html} alt="html logo" id="html" />
