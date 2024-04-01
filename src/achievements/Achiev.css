@@ -4,6 +4,12 @@
     margin: 0 auto;
 }
 
+.achiev .achiev-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 .achiev .achiev-top{
     display: flex;
     justify-content: space-between;
@@ -35,6 +41,7 @@
     padding: 0 80px;
     height: 45vh;
     overflow: scroll;
+    width: 80%;
     max-width: 1000px;
 }
 
@@ -50,6 +57,10 @@
 
 .achiev div h4{
     display: inline-block;
+}
+
+.achiev div h3{
+    color: #8CC152;
 }
 
 .achiev .view{
