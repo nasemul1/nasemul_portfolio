@@ -49,13 +49,13 @@
     row-gap: 30px;
 }
 
-#c, #cpp, #html, #css, #js, #bootstrap, #react, #figma{
+#c, #cpp, #html, #css, #js, #bootstrap, #react, #figma, #git{
     width: 40px;
     justify-self: center;
     align-self: center;
 }
 
-#c:hover, #cpp:hover, #html:hover, #css:hover, #js:hover, #bootstrap:hover, #react:hover, #figma:hover{
+#c:hover, #cpp:hover, #html:hover, #css:hover, #js:hover, #bootstrap:hover, #react:hover, #figma:hover, #git:hover{
     transition-duration: 250ms;
     transform: rotate(-45deg);
 }

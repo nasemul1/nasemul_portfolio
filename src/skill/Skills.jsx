@@ -7,6 +7,7 @@ import css from '.././assets/css-3.png'
 import jsImg from '.././assets/js.png'
 import reactImg from '.././assets/react.png'
 import figma from '.././assets/Figma.png'
+import gitImg from '.././assets/git.png'
 
 const Skills = () => {
     return (
@@ -25,6 +26,7 @@ const Skills = () => {
                     <img src={figma} alt="figma logo" id="figma" />
                     <img src={cprograming} alt="c logo" id="c" />
                     <img src={cpp} alt="cpp logo" id="cpp" />
+                    <img src={gitImg} alt="git logo" id="git" />
                 </div>
                 <div className="skill-text">
                     <h3>Skills:</h3>
@@ -34,7 +36,7 @@ const Skills = () => {
                     <h4>Frameworks:</h4>
                     <p>Bootstrap, react js</p>
                     <h4>Softwares:</h4>
-                    <p>Figma, photoshop, illustrator, vs code</p>
+                    <p>git, github, Figma, photoshop, illustrator, vs code</p>
                 </div>
             </div>
         </div>
