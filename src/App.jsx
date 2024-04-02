@@ -17,7 +17,7 @@ function App() {
       <section id="achievements">
         <Achiev />
       </section>
-      <section id="experiences">03.Experience</section>
+      <section id="works">03.Works</section>
       <section id="contact">04.Contact</section>
     </>
   )

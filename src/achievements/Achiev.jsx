@@ -11,12 +11,12 @@ const Achiev = () => {
                 <div className="front-end">
                     <h3>Web development:</h3>
                     <div className='achiev-box' id="2">
-                        <h4>Freecodecamp Responsive Web Design</h4>
-                        <div className="view"><div className="v-box"><a target='_blank' className="v-link" href="https://codedamn.com/certificate/verify/55e316636eebc9260be3bc1083c188b72b720a48">view</a></div></div>
+                        <h4>2. Freecodecamp Responsive Web Design</h4>
+                        <div className="view"><div className="v-box"><a target='_blank' className="v-link" href="https://www.freecodecamp.org/certification/nasemul1/responsive-web-design">view</a></div></div>
                     </div>
                     <div className='achiev-box' id="1">
-                        <h4>Learn the basics of web - Internet fundamentals</h4>
-                        <div className="view"><div className="v-box"><a target='_blank' className="v-link" href="https://www.freecodecamp.org/certification/nasemul1/responsive-web-design">view</a></div></div>
+                        <h4>1. Learn the basics of web - Internet fundamentals</h4>
+                        <div className="view"><div className="v-box"><a target='_blank' className="v-link" href="https://codedamn.com/certificate/verify/55e316636eebc9260be3bc1083c188b72b720a48">view</a></div></div>
                     </div>
                 </div>
                 <div className="cp">
