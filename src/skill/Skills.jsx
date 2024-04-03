@@ -18,15 +18,15 @@ const Skills = () => {
             </div>
             <div className="grid-container">
                 <div className="skill-logo">
-                    <img src={html} alt="html logo" id="html" />
-                    <img src={css} alt="css logo" id="css" />
-                    <img src={jsImg} alt="js logo" id="js" />
-                    <img src={bootstrap} alt="bootstrap logo" id="bootstrap" />
-                    <img src={reactImg} alt="react logo" id="react" />
-                    <img src={figma} alt="figma logo" id="figma" />
-                    <img src={cprograming} alt="c logo" id="c" />
-                    <img src={cpp} alt="cpp logo" id="cpp" />
-                    <img src={gitImg} alt="git logo" id="git" />
+                    <img src={html} alt="html logo" className='tech-logo' id="html" />
+                    <img src={css} alt="css logo" className='tech-logo' id="css" />
+                    <img src={jsImg} alt="js logo" className='tech-logo' id="js" />
+                    <img src={bootstrap} alt="bootstrap logo" className='tech-logo' id="bootstrap" />
+                    <img src={reactImg} alt="react logo" className='tech-logo' id="react" />
+                    <img src={figma} alt="figma logo" className='tech-logo' id="figma" />
+                    <img src={cprograming} alt="c logo" className='tech-logo' id="c" />
+                    <img src={cpp} alt="cpp logo" className='tech-logo' id="cpp" />
+                    <img src={gitImg} alt="git logo" className='tech-logo' id="git" />
                 </div>
                 <div className="skill-text">
                     <h3>Skills:</h3>

@@ -1,6 +1,7 @@
 import First from "./First"
 import Navbar from "./Navbar"
 import Achiev from "./achievements/Achiev"
+import Projects from "./projects/projects"
 import Skills from "./skill/Skills"
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <section id="achievements">
         <Achiev />
       </section>
-      <section id="works">03.Works</section>
+      <section id="projects">
+        <Projects />
+      </section>
       <section id="contact">04.Contact</section>
     </>
   )
