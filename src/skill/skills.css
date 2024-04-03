@@ -34,7 +34,7 @@
 }
 
 .grid-container{
-    padding: 0 100px;
+    padding: 0 100px 30px 100px;
     height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

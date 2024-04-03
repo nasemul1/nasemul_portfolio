@@ -9,6 +9,17 @@ const Navbar = () => {
                 <a className="nav-links" href="#contact"><span>04.</span> Contact</a>
                 <div className="resume"><div className="r-box"><a className="r-link" href="/">Resume</a></div></div>
             </div>
+            <div className="links-drop">
+                <div class="dropdown">
+                <button>Menu</button>
+                <div class="dropdown-options">
+                    <a href="#skill">Skill</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#works">Works</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                </div>
+            </div>
         </div>
     );
 }

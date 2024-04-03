@@ -69,6 +69,7 @@
 .achiev .view{
     background-color: #8CC152;
     border-radius: 6px;
+    margin-left: 10px;
 }
 
 .achiev .view .v-box{
@@ -99,9 +100,5 @@
     .front-end .achiev-box, .cp .achiev-box{
         padding: 10px 15px;
         font-size: 14px;
-    }
-
-    .achiev .view{
-        margin-left: 10px;
     }
 }
