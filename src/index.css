@@ -13,6 +13,7 @@ html{
 body{
     background-color: #212529;
     color: #EDEDED;
+    min-width: 350px;
 }
 
 section{
@@ -306,6 +307,7 @@ section{
 @media only screen and (max-width: 860px){
     .main-area{
         grid-row: 1fr 1fr;
+        margin-top: 100px;
     }
     .main-area .main-text{
         grid-column: span 5;
@@ -314,13 +316,23 @@ section{
     .main-area .main-image{
         grid-column: span 5;
         grid-row: 1/ span 1;
-        margin-top: 140px;
+    }
+
+    .main-image .img-box #front-img{
+        width: 240px;
+    }
+
+    .main-image .img-back-box{
+        width: 240px;
+        height: 240px;
+        border-radius: 24px;
     }
 }
 
 @media only screen and (max-width: 600px){
     .main-area{
         padding: 0 40px;
+        margin-top: 8vh;
     }
 
     .left-bar{
@@ -331,29 +343,26 @@ section{
         display: none;
     }
 
-    .main-area .main-image{
-        margin-top: 8vh;
-    }
-
-    .main-image .img-box img{
+    .main-image .img-box #front-img{
         width: 180px;
     }
 
     .main-image .img-back-box{
         width: 180px;
         height: 180px;
-        border-radius: 15px;
+        border-radius: 18px;
     }
 }
 
-@media only screen and (max-height: 760px) and (max-width: 600px){
-    .main-image .img-box img{
+@media only screen and (max-height: 710px) and (max-width: 380px){
+    .main-image .img-box #front-img{
         width: 140px;
     }
 
     .main-image .img-back-box{
         width: 140px;
         height: 140px;
+        border-radius: 15px;
     }
 }
 /* main-section - end */
