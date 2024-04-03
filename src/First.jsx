@@ -34,10 +34,10 @@ const First = () => {
                     </div>
                 </div>
                 <div className="main-image">
-                    <div className="img-box">
-                        <img src={ image } alt="my image" />
-                    </div>
                     <div className="img-back-box"></div>
+                    <div className="img-box">
+                        <img src={ image } alt="my image" id='front-img'/>
+                    </div>
                 </div>
             </div>
         </div>
