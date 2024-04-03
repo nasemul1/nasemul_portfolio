@@ -4,21 +4,14 @@
     margin: 0 auto;
 }
 
-.achiev .achiev-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
 .achiev .achiev-top{
     display: flex;
     justify-content: space-between;
+    padding: 25px 80px;
 }
 
 .achiev .achiev-top #achiev-head{
-    padding: 20px 100px;
     color: #5F6164;
-    text-align: right;
     font-size: 14px;
     display: inline-block;
 }
@@ -27,7 +20,6 @@
     text-decoration: none;
     color: #5F6164;
     font-size: 14px;
-    padding: 20px 100px;
 }
 
 .achiev .achiev-top a:hover{
@@ -36,13 +28,24 @@
     transform: translateY(-4px);
 }
 
-.front-end, .cp{
+@media only screen and (max-width: 600px){
+    .achiev .achiev-top{
+        padding: 20px 40px;
+    }
+}
+
+.achiev .achiev-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 0 auto;
-    padding: 0 80px;
-    height: 45vh;
-    overflow: scroll;
     width: 80%;
     max-width: 1000px;
+}
+
+.front-end, .cp{
+    height: 45vh;
+    overflow: scroll;
 }
 
 .front-end .achiev-box, .cp .achiev-box{
@@ -84,4 +87,21 @@
     font-size: 14px;
     text-decoration: none;
     color: #fff;
+}
+
+@media only screen and (max-width: 1000px){
+    .achiev .achiev-container{
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .front-end .achiev-box, .cp .achiev-box{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .achiev .view{
+        margin-left: 10px;
+    }
 }

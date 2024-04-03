@@ -6,12 +6,11 @@
 .skills .skills-top{
     display: flex;
     justify-content: space-between;
+    padding: 25px 80px;
 }
 
 .skills .skills-top #skills-head{
-    padding: 20px 100px;
     color: #5F6164;
-    text-align: right;
     font-size: 14px;
     display: inline-block;
 }
@@ -20,13 +19,18 @@
     text-decoration: none;
     color: #5F6164;
     font-size: 14px;
-    padding: 20px 100px;
 }
 
 .skills .skills-top a:hover{
     color: #8CC152;
     transition-duration: 250ms;
     transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px){
+    .skills .skills-top{
+        padding: 20px 40px;
+    }
 }
 
 .grid-container{
