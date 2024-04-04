@@ -1,7 +1,7 @@
 import First from "./First"
 import Navbar from "./Navbar"
 import Achiev from "./achievements/Achiev"
-import Projects from "./projects/projects"
+import Projects from "./projects/Projects"
 import Skills from "./skill/Skills"
 
 function App() {

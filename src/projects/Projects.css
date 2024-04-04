@@ -1,0 +1,129 @@
+.projects-page{
+    width: 100%;
+    height: 100vh;
+}
+
+.projects-body{
+    margin: 0 100px;
+}
+
+.projects-body #pro-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-body h2{
+    color: #8CC152;
+    display: inline-block;
+}
+
+.projects-body #pro-link{
+    text-decoration: none;
+    color: #ddd;
+    transition: transform 250ms ease-in-out;
+}
+
+.projects-body #pro-link:hover{
+    color: #8CC152;
+    transform: translateY(-4px);
+}
+
+.container{
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container .project{
+    width: 260px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 20px 20px 0;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.projects-body .container img{
+    width: 240px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.projects-body .project-text{
+    width: 240px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.project-text .p-tag span{
+    margin-right: 6px;
+    font-size: 14px;
+    color: #5F6164;
+}
+
+.project-text .p-button{
+    margin: 10px 0;
+    display: flex;
+}
+
+.p-button .p-view{
+    background-color: #8CC152;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.p-button .p-view .p-box{
+    padding: 3px 15px;
+    background-color: #212529;
+    border: 1px solid #8CC152;
+    border-radius: 6px;
+    transition: transform 250ms ease-in-out;
+}
+
+.p-button .p-view .p-box:hover{
+    transform: translate(-3px, -3px);
+}
+
+.p-button .p-view .p-box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+@media only screen and (max-width: 600px){
+    .projects-body{
+        margin: 0 40px;
+    }
+    .projects-body #pro-head{
+        margin-bottom: 15px;
+    }
+    .container{
+        width: 100%;
+        height: 75vh;
+        overflow-y: scroll;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .project{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 840px) and (min-height: 1000px){
+    .container .project{
+        margin: 10px;
+    }
+    .container{
+        width: 100%;
+        overflow-y: scroll;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
