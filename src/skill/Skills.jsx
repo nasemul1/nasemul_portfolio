@@ -8,14 +8,12 @@ import jsImg from '.././assets/js.png'
 import reactImg from '.././assets/react.png'
 import figma from '.././assets/Figma.png'
 import gitImg from '.././assets/git.png'
+import Header from '../header/Header'
 
 const Skills = () => {
     return (
         <div className="skills">
-            <div className="skills-top">
-                <p id='skills-head'>01. Skills</p>
-                <a href="#main">Go to top</a>
-            </div>
+            <Header title="01. Skills"/>
             <div className="grid-container">
                 <div className="skill-logo">
                     <img src={html} alt="html logo" className='tech-logo' id="html" />

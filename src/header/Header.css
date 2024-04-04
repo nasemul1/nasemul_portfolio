@@ -1,0 +1,23 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+.top #head{
+    color: #5F6164;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.top a{
+    text-decoration: none;
+    color: #5F6164;
+    font-size: 14px;
+    transition: transform 250ms ease-in-out;
+}
+
+.top a:hover{
+    color: #8CC152;
+    transform: translateY(-6px);
+}

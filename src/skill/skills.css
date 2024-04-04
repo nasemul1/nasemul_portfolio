@@ -3,30 +3,6 @@
     height: 100vh;
 }
 
-.skills .skills-top{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 80px;
-}
-
-.skills .skills-top #skills-head{
-    color: #5F6164;
-    font-size: 14px;
-    display: inline-block;
-}
-
-.skills .skills-top a{
-    text-decoration: none;
-    color: #5F6164;
-    font-size: 14px;
-}
-
-.skills .skills-top a:hover{
-    color: #8CC152;
-    transition-duration: 250ms;
-    transform: translateY(-4px);
-}
-
 @media only screen and (max-width: 600px){
     .skills .skills-top{
         padding: 20px 40px;
@@ -53,14 +29,14 @@
     row-gap: 30px;
 }
 
-#c, #cpp, #html, #css, #js, #bootstrap, #react, #figma, #git{
+.tech-logo{
     width: 40px;
     justify-self: center;
     align-self: center;
+    transition: transform 250ms ease-in-out;
 }
 
 .tech-logo:hover{
-    transition-duration: 250ms;
     /* transform: rotate(-45deg); */
     transform: scale(1.5);
 }

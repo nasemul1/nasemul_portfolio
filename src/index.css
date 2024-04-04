@@ -59,12 +59,12 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+    transition: transform 250ms ease-in-out;
 }
 
 .box:hover{
-    transition-duration: 250ms;
     transform: translate(-4px, -4px);
-    rotate: -10deg;
+    /* rotate: -10deg; */
 }
 
 .box a{
@@ -110,10 +110,10 @@ section{
     background-color: #212529;
     border: 2px solid #8CC152;
     border-radius: 6px;
+    transition: transform 250ms ease-in-out;
 }
 
 .resume .r-box:hover{
-    transition-duration: 250ms;
     transform: translate(-4px, -4px);
 }
 
@@ -199,11 +199,11 @@ section{
 
 .left-bar ul li{
     padding: 0 8px 16px 8px;
+    transition: transform 250ms ease-in-out;
 }
 
 .left-bar ul li:hover{
-    transition-duration: 250ms;
-    transform: translateY(-4px);
+    transform: translateY(-6px);
 }
 
 .left-bar ul li a{
@@ -243,12 +243,12 @@ section{
     color: #5F6164;
     writing-mode: vertical-lr;
     padding-bottom: 10px;
+    transition: transform 250ms ease-in-out;
 }
 
 .right-bar p a:hover{
     color: #8CC152;
-    transition-duration: 250ms;
-    transform: translateY(-4px);
+    transform: translateY(-6px);
 }
 
 .right-bar::after{
@@ -312,10 +312,10 @@ section{
     border-radius: 6px;
     display: flex;
     justify-content: center;
+    transition: transform 250ms ease-in-out;
 }
 
 .hireMe-div .hireMe-box:hover{
-    transition-duration: 250ms;
     transform: translate(-4px, -4px);
 }
 
@@ -335,6 +335,7 @@ section{
 
 .main-image .img-box{
     position: absolute;
+    transition: transform 250ms ease-in-out;
 }
 
 .main-image .img-box #front-img{
@@ -349,15 +350,14 @@ section{
     border-style: dashed;
     border-radius: 30px;
     position: absolute;
+    transition: transform 250ms ease-in-out;
 }
 
 .main-image:hover .img-box{
-    transition-duration: 250ms;
     transform: translate(-4px, -4px);
 }
 
 .main-image:hover .img-back-box{
-    transition-duration: 250ms;
     transform: translate(4px, 4px);
 }
     /* main-image - end */

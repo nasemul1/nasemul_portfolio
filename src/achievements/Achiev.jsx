@@ -1,12 +1,10 @@
+import Header from '../header/Header';
 import './Achiev.css'
 
 const Achiev = () => {
     return (
         <div className="achiev">
-            <div className="achiev-top">
-                <p id='achiev-head'>02. Achievements</p>
-                <a href="#main">Go to top</a>
-            </div>
+            <Header title="02. Achievements"/>
             <div className="achiev-container">
                 <div className="front-end">
                     <h3>Web development:</h3>
