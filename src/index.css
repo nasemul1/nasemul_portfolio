@@ -183,7 +183,7 @@ section{
     width: 40px;
     position: fixed;
     bottom: 0;
-    z-index: 10;
+    z-index: 11;
     left: 20px;
     right: auto;
 }
@@ -230,7 +230,7 @@ section{
     width: 40px;
     position: fixed;
     bottom: 0;
-    z-index: 10;
+    z-index: 11;
     left: auto;
     right: 20px;
     display: flex;
