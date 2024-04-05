@@ -2,6 +2,9 @@
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px){
@@ -14,8 +17,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0 auto;
-    width: 80%;
+    margin: 80px 100px 0 100px;
     max-width: 1000px;
 }
 
@@ -68,11 +70,14 @@
 
 @media only screen and (max-width: 1000px){
     .achiev .achiev-container{
-        margin: 20px auto;
+        margin: 80px 100px;
     }
 }
 
 @media only screen and (max-width: 540px){
+    .achiev .achiev-container{
+        margin: 80px 40px;
+    }
     .front-end .achiev-box, .cp .achiev-box{
         padding: 10px 15px;
         font-size: 14px;
