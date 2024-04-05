@@ -1,3 +1,4 @@
+import Contacts from "./Contact/Contacts"
 import First from "./First"
 import Navbar from "./Navbar"
 import Achiev from "./achievements/Achiev"
@@ -21,7 +22,9 @@ function App() {
       <section id="projects">
         <Projects />
       </section>
-      <section id="contact">04.Contact</section>
+      <section id="contact">
+        <Contacts />
+      </section>
     </>
   )
 }

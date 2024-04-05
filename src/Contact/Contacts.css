@@ -1,0 +1,78 @@
+.contact-body{
+    width: 100%;
+    height: 100vh;
+    padding: 65px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mail-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-form form label{
+    font-weight: 600;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+.mail-form form input, .mail-form form textarea{
+    color: #ddd;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #8CC152;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.mail-form form button{
+    padding: 6px 10px;
+    width: 100px;
+    margin: 20px auto 0 auto;
+    background-color: transparent;
+    border: 1px solid #8CC152;
+    border-radius: 5px;
+    color: #ddd;
+    font-weight: 600;
+}
+
+.mail-form form button:hover{
+    background-color: #8CC152;
+    color: #212529;
+}
+.contact-footer{
+    margin-bottom: 20px;
+}
+.contact-lg{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.contact-lg a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 26px;
+    margin: 0 20px;
+}
+
+.contact-lg a:hover{
+    color: #8CC152;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-text p a{
+    text-decoration: none;
+    color: #8CC152;
+}
+
+@media only screen and (max-width: 600px){
+    .contact-body{
+        padding: 65px 40px 0 40px;
+    }
+}
