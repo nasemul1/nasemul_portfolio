@@ -29,7 +29,7 @@ const First = () => {
                     <p className="bio">Highly motivated aspiring front-end developer with a strong grasp of HTML, CSS, and JavaScript seeks an entry-level position to leverage skills and contribute to a dynamic team.</p>
                     <div className="hireMe-div">
                         <div className="hireMe-box">
-                            <a href="">Hire Me</a>
+                            <a href="#contact">Hire Me</a>
                         </div>
                     </div>
                 </div>
