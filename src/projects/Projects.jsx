@@ -4,6 +4,7 @@ import toDo from '../assets/to_do.png'
 import restuarant from '../assets/restuarent.png'
 import technical from '../assets/technical.png'
 import glass from '../assets/glass.png'
+import blog from '../assets/nasemul-blog.png'
 
 const Projects = () => {
     return (
@@ -15,6 +16,20 @@ const Projects = () => {
                     <a href="">See more</a>
                 </div>
                 <div className="project-container">
+                <div className="proj">
+                        <img src={blog} alt="blog page image" />
+                        <div className="proj-bottom">
+                            <h3>Blog Page</h3>
+                            <div className="proj-tag">
+                                <span>React JS</span>
+                                <span>JSON server</span>
+                            </div>
+                            <div className="proj-btn">
+                                <div><a href="https://github.com/nasemul1/nasemul-blog/tree/main" target="_blank"><i class="fa-brands fa-github"></i> Code</a></div>
+                                <div><a href="https://nasemul1.github.io/nasemul-blog/" target="_blank"><i class="fa-solid fa-eye"></i> View</a></div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="proj">
                         <img src={toDo} alt="to do app image" />
                         <div className="proj-bottom">
