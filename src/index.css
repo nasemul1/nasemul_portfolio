@@ -18,6 +18,7 @@ body{
 
 section{
     height: 100vh;
+    height: 100dvh;
     scroll-snap-align: center;
     overflow: hidden;
 }
@@ -175,6 +176,10 @@ section{
     border-radius: 5px;
     color: #8CC152;
 }
+
+.links-drop .dropdown-options #m-resume:hover{
+    color: #212529;
+}
 /* navbar - end */
 
 /* main section - start */
@@ -300,13 +305,12 @@ section{
 
 .hireMe-div{
     margin-top: 25px;
-    width: 150px;
     border-radius: 6px;
     background-color: #8CC152;
+    display: inline-block;
 }
 
 .hireMe-div .hireMe-box{
-    padding: 8px;
     border: 2px solid #8CC152;
     background-color: #212529;
     border-radius: 6px;
@@ -320,6 +324,7 @@ section{
 }
 
 .hireMe-div .hireMe-box a{
+    padding: 10px 35px;
     text-decoration: none;
     color: #EDEDED;
 }
