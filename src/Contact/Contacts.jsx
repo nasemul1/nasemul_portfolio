@@ -6,24 +6,20 @@ const Contacts = () => {
         <>
             <Header title="04. Contacts"/>
             <div className="contact-body">
-                <div className="mail-form">
-                    <form action="mailto:nasemul.me@gmail.com" method="post" enctype="text/plain">
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" name="email" id="email" required/>
-                        <label htmlFor="text">Enter text:</label>
-                        <textarea name="textarea" id="text" cols={25} rows={10} required></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-                <div className="contact-footer">
-                    <div className="contact-lg">
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-codepen"></i></a>
-                    </div>
-                    <div className="footer-text">
-                        <p>This portfolio is inspired by <a href="https://v4.brittanychiang.com/">Brittany Chiang v4</a></p>
-                        <p>All rights reserved©</p>
+                <div className="contact-card">
+                    <div className="contact-form">
+                        <h6>Looks like you need some help</h6>
+                        <h2>Reach Out!</h2>
+                        <p>I usually respond within an hour, but designers do sleep two or three hours a night, so it might take a bit longer. Thank you and I am looking to hearing from you.</p>
+                        <form action="mailto:nasemul.me@gmail.com" method="post" encType="application/x-www-form-urlencoded">
+                            <label htmlFor="c-name">Name:</label><br />
+                            <input type="text" id="c-name" required/><br />
+                            <label htmlFor="c-email">Email:</label><br />
+                            <input type="email" id="c-email" required/><br />
+                            <label htmlFor="c-message">Message:</label><br />
+                            <textarea name="message" id="c-message" required></textarea><br />
+                            <button type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
