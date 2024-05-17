@@ -4,7 +4,7 @@ import './Achiev.css'
 const Achiev = () => {
     return (
         <div className="achiev">
-            <Header title="02. Achievements"/>
+            <Header title="02. Achievements" next="#projects"/>
             <div className="achiev-container">
                 <div className="front-end">
                     <h3>Web development:</h3>

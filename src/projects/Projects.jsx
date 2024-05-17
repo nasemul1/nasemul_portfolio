@@ -10,7 +10,7 @@ import animated from '../assets/3d-animated-page.png'
 const Projects = () => {
     return (
         <>
-            <Header title="03. Projects"/>
+            <Header title="03. Projects" next="#contact"/>
             <div className="projects-body">
                 <div className="project-heading">
                     <h2>Projects</h2>

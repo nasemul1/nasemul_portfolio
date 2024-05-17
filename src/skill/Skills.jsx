@@ -13,7 +13,7 @@ import Header from '../header/Header'
 const Skills = () => {
     return (
         <div className="skills">
-            <Header title="01. Skills"/>
+            <Header title="01. Skills" next="#achievements"/>
             <div className="grid-container">
                 <div className="skill-logo">
                     <img src={html} alt="html logo" className='tech-logo' id="html" />
