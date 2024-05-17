@@ -14,7 +14,6 @@ const Projects = () => {
             <div className="projects-body">
                 <div className="project-heading">
                     <h2>Projects</h2>
-                    <a href="">See more</a>
                 </div>
                 <div className="project-container">
                     <div className="proj">
