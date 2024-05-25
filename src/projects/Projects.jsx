@@ -2,10 +2,10 @@ import Header from "../header/Header";
 import './Projects.css'
 import toDo from '../assets/to_do.png'
 import restuarant from '../assets/restuarent.png'
-import technical from '../assets/technical.png'
 import glass from '../assets/glass.png'
 import blog from '../assets/nasemul-blog.png'
 import animated from '../assets/3d-animated-page.png'
+import team from '../assets/team-flow.png'
 
 const Projects = () => {
     return (
@@ -16,6 +16,19 @@ const Projects = () => {
                     <h2>Projects</h2>
                 </div>
                 <div className="project-container">
+                <div className="proj">
+                        <img src={team} alt="blog page image" />
+                        <div className="proj-bottom">
+                            <h3>team.flow Page</h3>
+                            <div className="proj-tag">
+                                <span>NEXT JS</span>
+                            </div>
+                            <div className="proj-btn">
+                                <div><a href="https://github.com/nasemul1/team.flow" target="_blank"><i class="fa-brands fa-github"></i> Code</a></div>
+                                <div><a href="https://team-flow-six.vercel.app/" target="_blank"><i class="fa-solid fa-eye"></i> View</a></div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="proj">
                         <img src={blog} alt="blog page image" />
                         <div className="proj-bottom">
@@ -85,20 +98,6 @@ const Projects = () => {
                             <div className="proj-btn">
                                 <div><a href="https://github.com/nasemul1/glass_morphism" target="_blank"><i class="fa-brands fa-github"></i> Code</a></div>
                                 <div><a href="https://nasemul1.github.io/glass_morphism/" target="_blank"><i class="fa-solid fa-eye"></i> View</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="proj">
-                        <img src={technical} alt="Technical documentation page" />
-                        <div className="proj-bottom">
-                            <h3>Documentation page</h3>
-                            <div className="proj-tag">
-                                <span>html</span>
-                                <span>CSS</span>
-                            </div>
-                            <div className="proj-btn">
-                                <div><a href="https://github.com/nasemul1/technicaldocumentationpage" target="_blank"><i class="fa-brands fa-github"></i> Code</a></div>
-                                <div><a href="https://nasemul1.github.io/technicaldocumentationpage/" target="_blank"><i class="fa-solid fa-eye"></i> View</a></div>
                             </div>
                         </div>
                     </div>
